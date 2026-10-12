@@ -1,0 +1,67 @@
+.screen {
+    width: 90%;
+    margin: 11px auto;
+    border: 8px solid silver;
+    border-radius: 8px;
+}
+
+.container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.seats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.seats button {
+    width: 3em;
+    height: 3em;
+    border: none;
+    border-radius: 4px;
+    margin: 0.3em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-prarent {
+    margin-left: 2em;
+}
+
+.price-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+}
+.price-inecator{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-top: 1em;
+
+}
+.book-seat{
+    background-color: rgb(41,249,41);
+    width: 90%;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+    padding: 8px;
+}
+.book-btn{
+    display: flex;
+    justify-content: center;
+    margin: 14px;
+    
+}
+.seat-details{
+    margin: 1em;
+    margin-left: 4em;
+}
